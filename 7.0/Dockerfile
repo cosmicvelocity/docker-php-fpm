@@ -15,7 +15,6 @@ RUN apk add --update --no-cache --virtual .build-deps \
         giflib-dev \
         icu \
         icu-dev \
-        imagemagick-dev \
         libbz2 \
         libintl \
         libjpeg-turbo-dev \
@@ -26,6 +25,7 @@ RUN apk add --update --no-cache --virtual .build-deps \
         libwebp-dev \
         libxpm-dev \
         openssl-dev \
+        pcre-dev \
         zlib-dev \
     \
     && docker-php-source extract \
